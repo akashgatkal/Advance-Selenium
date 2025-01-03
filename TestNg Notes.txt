@@ -1,0 +1,61 @@
+26/12/2001
+-->Data drivern Testing: it is a process of driving the data from the external file
+                                            such as excel,properties,json,Database etc and use it inside the script.
+-->Advantage-
+1)Data Manipulation
+2)Avoid hardWorking
+3)Data Management
+4)Actions Optimizations
+
+
+
+To become Good aumomation Tester we have to follow
+1)code Optimizations
+2)code Readability
+3)Avoid Hardcoding
+4)Dynamic way
+
+
+Assertion:
+-->It is Library or Function which is used to verify or VAlidate the expected result with actual result.
+--> Types
+1)Hard Assert
+2) Soft Assert
+
+1)Hard Assert:
+--> It is the one of the Assert type which is having some  predefined methods like
+                                    assertEquals();
+                                    assertNotEquals();
+                                    assertTrue();
+                                    assertFalse();
+                                    assertNull();
+                                    assertNotNull();
+-->If the Comparison is failed at that time it will terminate the process.
+2)Soft Assert:
+--> It is the one of the Assert type which is having some  predefined Non-Static methods like
+                                    assertEquals();
+                                    assertNotEquals();
+                                    assertTrue();
+                                    assertFalse();
+                                    assertNull();
+                                    assertNotNull();
+                                    assertAll();-To get the all of the fails test.....is a methods which records all failures.
+-->These are the Non-Static methods to  use this we have to create Object Of Soft Assert.
+                SoftAssert ref=new SoftAssert();
+-->If the Comparison is failed at that time it will Not terminate the process.
+
+
+--> Listeners:-
+-->It is an Interface
+            1)ITestListeners  (Some Methods---   onStart(),onTestStart(),onTestSuccess(), ontestFailures(), onTestSkipped(), onFinish()  );
+            2)IRetryAnalyasers
+
+
+
+
+
+
+
+
+
+
